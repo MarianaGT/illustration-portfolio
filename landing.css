@@ -1,12 +1,13 @@
 body {
-  font-family: Helvetica;
-  font-weight: light;
+  font-family: 'Roboto', Helvetica, sans-serif;
+  font-weight: 300;
   line-height: 1.5em;
   margin: 40px;
 }
 
 h2 {
   color: #2cd7e6;
+  font-weight: 400;
 }
 
 header p {
