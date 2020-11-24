@@ -31,6 +31,10 @@ header p {
   height: 250px;
 }
 
+.svg-25 {
+  font-size: 20px;
+}
+
 .h-25:hover {
   transform: scale(1.20);
   transition: 500ms;
