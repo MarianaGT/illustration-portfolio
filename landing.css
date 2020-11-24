@@ -1,0 +1,39 @@
+body {
+  font-family: Helvetica;
+  font-weight: light;
+  line-height: 1.5em;
+  margin: 40px;
+}
+
+h2 {
+  color: #2cd7e6;
+}
+
+header p {
+  font-size: 12px;
+  margin-top: -10px;
+  padding: 4px 4px 4px 8px;
+}
+
+.flex-vertical {
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.gray-bg {
+ background-color: #f7f7f7;
+ display: block;
+}
+
+.h-25 {
+  height: 250px;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+.p-1 {
+  padding: 4px;
+}
