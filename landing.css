@@ -10,14 +10,19 @@ h2 {
   font-weight: 400;
 }
 
-header p {
+p {
   font-size: 12px;
   margin-top: -10px;
-  padding: 4px 4px 4px 8px;
+  padding: 4px 4px 4px 12px;
 }
 
-header span {
+span {
   color: #8ce07e;
+  padding: 0 4px;
+}
+
+footer {
+  margin-top: 16px;
 }
 
 .flex-vertical {
@@ -39,8 +44,8 @@ header span {
   font-size: 20px;
 }
 
-.h-25:hover {
-  transform: scale(1.20);
+.grow:hover {
+  transform: scale(1.18);
   transition: 500ms;
 }
 
