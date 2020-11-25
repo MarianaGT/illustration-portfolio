@@ -16,6 +16,12 @@ p {
   padding: 4px 4px 4px 12px;
 }
 
+a {
+  text-decoration: none;
+  background-color: yellow;
+  color: black;
+}
+
 span {
   color: #8ce07e;
   padding: 0 4px;
