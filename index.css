@@ -40,9 +40,22 @@ footer {
   height: 250px;
 }
 
+.h-24 {
+  height: 242px;
+}
+
+.pm-4 {
+  padding: 4px;
+  margin: 4px;
+}
+
 .grow:hover {
   transform: scale(1.18);
   transition: 500ms;
+}
+
+.w-17 {
+  width: 250px;
 }
 
 .w-25 {
@@ -61,13 +74,15 @@ footer {
   padding: 8px;
 }
 
+.m-1 {
+  margin: 4px;
+}
+
 .fade-box {
   position: relative;
   background-position: center center;
   background-size: cover;
   display: inline-block;
-  height: 243px;
-  margin: 4px;
 }
 
 .fade {
@@ -76,7 +91,6 @@ footer {
   top: 0;
   right: 0;
   width: 99%;
-  height: 243px;
   background: rgba(47, 47, 47, 0.8);
   transition: 400ms ease;
   display: flex;
