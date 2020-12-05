@@ -109,3 +109,7 @@ footer {
   font-size: 12px;
   color: white;
 }
+
+.thumbnail {
+  height: 100px;
+}
