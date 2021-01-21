@@ -113,3 +113,50 @@ footer {
 .thumbnail {
   height: 100px;
 }
+
+.tab {
+  float: left;
+  width: 27%;
+}
+
+.tab label {
+  // set label height
+  top: 1em;
+  font-size: 1.5em;
+  padding: 0.2em;
+
+  &:hover {
+    background-color: white;
+  }
+}
+
+// Visually hide radio buttons
+.tab [type=radio] {
+  position: absolute;
+  height: 0;
+  width: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+
+  &:focus + label {
+    outline: 2px dotted black;
+    background-color: white;
+    color: black;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 1em; left: 0; right: 0; bottom: 0;
+  opacity: 0;
+  margin: 50px 35px 15px 15px;
+}
+
+[type=radio]:checked ~ label {
+  z-index: 2;
+}
+
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+  opacity: 1;
+}
