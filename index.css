@@ -117,7 +117,7 @@ footer {
 
 .tabs {
   position: relative;
-  min-height: 500px;
+  min-height: 700px;
   margin-bottom: 16px;
 }
 
@@ -152,6 +152,7 @@ footer {
   top: 2em; left: 0; right: 0; bottom: 0;
   opacity: 0;
   margin-top: 8px;
+  overflow: auto;
 }
 
 [type=radio]:checked ~ label {
