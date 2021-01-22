@@ -180,7 +180,7 @@ footer {
 .card-category {
   background-color: #f8c630;
   min-height: 15em;
-  width: 15em;
+  width: 18em;
   box-sizing: border-box;
   padding: 2em;
   position: relative;
@@ -218,4 +218,51 @@ footer {
 .d-flex {
   display: flex;
   align-items: center;
+}
+
+.easy {
+  background-color: #fee85f;
+}
+
+.medium {
+  background-color: #a0d55e;
+}
+
+.hard {
+  background-color: #fab1c2;
+}
+
+.circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.little-text-border {
+  font-size: 10px;
+  letter-spacing: 1px;
+  border: 1px dotted #0E0000;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.text-white {
+  color: white;
+}
+
+.px-1 {
+  padding: 0 4px;
+}
+
+.ml-1 {
+  margin-left: -4px;
+}
+
+.ml-2 {
+  margin-left: 8px;
+  margin-bottom: 14px;
+}
+
+.ml-3 {
+  margin-left: 14px;
+  margin-bottom: 14px;
 }
