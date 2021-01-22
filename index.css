@@ -79,6 +79,10 @@ footer {
   margin: 4px;
 }
 
+.d-inline {
+  display: inline;
+}
+
 .fade-box {
   position: relative;
   background-position: center center;
@@ -217,7 +221,14 @@ footer {
 
 .d-flex {
   display: flex;
+}
+
+.align-center {
   align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 .easy {
@@ -238,8 +249,11 @@ footer {
   border-radius: 50%;
 }
 
-.little-text-border {
-  font-size: 10px;
+.little-text {
+ font-size: 10px;
+}
+
+.b-dotted {
   letter-spacing: 1px;
   border: 1px dotted #0E0000;
   background-color: rgba(255, 255, 255, 0.8);
@@ -259,10 +273,16 @@ footer {
 
 .ml-2 {
   margin-left: 8px;
-  margin-bottom: 14px;
 }
 
 .ml-3 {
   margin-left: 14px;
+}
+
+.mb-3 {
   margin-bottom: 14px;
+}
+
+.mr-3 {
+  margin-right: 14px;
 }
