@@ -192,27 +192,6 @@ footer {
   position: relative;
 }
 
-.card-category:after {
-  content: "";
-  position: absolute;
-  bottom: -2em;
-  left: 0;
-  right: 2em;
-  border-width: 1em;
-  border-style: solid;
-  border-color: #f8c630;
-}
-
-.card-category:before {
-  content: "";
-  position: absolute;
-  bottom: -2em;
-  right: 0em;
-  border-width: 2em 2em 0 0;
-  border-style: solid;
-  border-color: darken(#f8c630, 10%) transparent;
-}
-
 .card-note-text h3 {
   font-size: 1.5em;
   font-weight: bold;
@@ -249,10 +228,24 @@ footer {
   width: 30px;
   height: 30px;
   border-radius: 50%;
+  margin-bottom: 14px;
 }
 
 .little-text {
  font-size: 10px;
+}
+
+.badge-gray {
+  background-color: #727272;
+  border-radius: 4px 4px 4px 4px;
+  color: #48c5db;
+}
+
+.badge-blue {
+  background-color: #48c5db;
+  border-radius: 4px 4px 4px 4px;
+  color: black;
+  letter-spacing: 2px;
 }
 
 .b-dotted {
@@ -281,8 +274,9 @@ footer {
   margin-left: 14px;
 }
 
-.mb-3 {
-  margin-bottom: 14px;
+.my-3 {
+  margin: 14px 0;
+  padding: 14px 0;
 }
 
 .mr-3 {
@@ -291,10 +285,6 @@ footer {
 
 .mr-2 {
   margin-right: 4px;
-}
-
-.mb-3 {
-  margin-bottom: 14px;
 }
 
 /* Oxford in 8 Breaths*/
@@ -326,4 +316,36 @@ footer {
   height: 30px;
   width: 35px;
   margin-top: -3px;
+}
+
+/* Moonwalking Tours*/
+.rainbow-card {
+  min-height: 15em;
+  width: 18em;
+  background-color: #f89b89;
+  animation-duration: 30s;
+  animation-name: rainbow;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0%   { background-color: white;}
+  25%  { background-color: #d3b07c;}
+  50%  { background-color: #fee85f;}
+  75%  { background-color: #f89b89;}
+  100%   { background-color: white;}
+}
+
+.text-dark-gray {
+  color: #333;
+}
+
+.fit {
+  box-sizing: border-box;
+}
+
+.vertical-text {
+  transform: rotate(-90deg) translateX(-32%);
+  transform-origin: top left;
+  margin: 48px;
 }
