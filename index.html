@@ -10,12 +10,7 @@
   </head>
   <body>
     <header>
-      <div>
-        <h2>M GALÁN · Open Studio</h2>
-        <!-- <div class="gray-bg">
-          <p>Artist <span>/</span> Scientific illustrator <span>/</span> Web Developer</p>
-        </div> -->
-      </div>
+      <h2>M GALÁN · Open Studio</h2>
     </header>
     <section>
       <div class="tabs">
@@ -179,7 +174,49 @@
                 </div>
               </div>
             </div>
-
+            <div class="d-flex justify-center my-3">
+              <div class="w-25 pm-4 mr-3">
+                <p><strong> \ Get the book</strong></p>
+                <p>Web application to rent and lend books.</p><br>
+                <div class="d-flex align-center pm-4">
+                  <img class="mr-2" src="images/github.svg" alt="">
+                  <a class="little-text" href="https://github.com/IbenFlores/get_the_book">CODE</a>
+                </div>
+              </div>
+              <div class="pm-4">
+                <div class="rainbow-card fit p-2">
+                  <div class="p-2">
+                    <h1 class="text-dark-gray">THINK <span class="text-white">WITH US</span></h1>
+                    <h1 class="vertical-text text-white">LEGACY</h1>
+                  </div>
+                </div>
+              </div>
+            </div>
+<div class="parent card-product">
+         <% if book.photo.attached? %>
+          <%= cl_image_tag book.photo.key %>
+         <% else %>
+            <% if book.photo_url %>
+              <%= image_tag book.photo_url %>
+            <% else %>
+              <%= image_tag "pile.png" %>
+            <% end %>
+         <% end %>
+          <% if current_user != book.owner %>
+            <% if book.booked? %>
+              <p class="child-booked text-center badge badge-info text-wrap" style="width: 5rem;">Currently booked</p>
+            <% else %>
+              <p class="child-rental-available text-center badge badge-success text-wrap" style="width: 4rem;">Available for rental</p>
+            <% end %>
+          <% else %>
+            <p class="child-rental-available text-center badge badge-primary text-wrap" style="width: 4rem;">Your book</p>
+          <% end %>
+          <div class="card-product-infos">
+            <h2><%= link_to book.title, book_path(book) %></h2>
+            <p><%= "#{book.author} | #{book.year}" %></p>
+            <p>Price: <%= book.price %>$</p>
+          </div>
+      </div>
 
         </div>
       </div>

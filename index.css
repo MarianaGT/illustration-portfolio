@@ -346,3 +346,17 @@ footer {
   transform-origin: top left;
   margin: 48px;
 }
+
+/* Get the book */
+.card-product {
+  overflow: hidden;
+  height: 330px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 50px;
+  padding: 8px;
+  width: 200px;
+}
