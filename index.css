@@ -147,7 +147,7 @@ footer {
   color: #8ce07e;
 }
 
-.tab-content {
+.content {
   position: absolute;
   top: 2em; left: 0; right: 0; bottom: 0;
   opacity: 0;
@@ -165,7 +165,7 @@ footer {
   opacity: 1;
 }
 
-/*.btn {
+.btn {
   background-color: #ffe214;
   border-radius: 0 45px 0 45px;
   color: black;
@@ -181,4 +181,4 @@ footer {
   background-color: #000000;
   border-radius: 45px 0 45px 0;
   color: white;
-}*/
+}
