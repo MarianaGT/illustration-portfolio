@@ -19,8 +19,11 @@ p {
 
 a {
   text-decoration: none;
-  background-color: yellow;
   color: black;
+}
+
+a:hover {
+  background-color: yellow;
 }
 
 span {
@@ -285,4 +288,8 @@ footer {
 
 .mr-3 {
   margin-right: 14px;
+}
+
+.mr-2 {
+  margin-right: 4px;
 }
