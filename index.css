@@ -114,6 +114,12 @@ footer {
   height: 100px;
 }
 
+.tabs {
+  position: relative;
+  background-color: #f7f7f7;
+  min-height: 400px;
+}
+
 .tab {
   float: left;
   width: 27%;
@@ -122,11 +128,11 @@ footer {
 .tab label {
   // set label height
   top: 1em;
-  font-size: 1.5em;
+  font-size: 12px;
   padding: 0.2em;
 
   &:hover {
-    background-color: white;
+    background-color: yellow;
   }
 }
 
@@ -140,7 +146,7 @@ footer {
 
   &:focus + label {
     outline: 2px dotted black;
-    background-color: white;
+    background-color: yellow;
     color: black;
   }
 }
