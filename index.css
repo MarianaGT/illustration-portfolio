@@ -28,7 +28,7 @@ span {
 }
 
 footer {
-  margin-top: 16px;
+  margin: 16px 0;
 }
 
 .gray-bg {
@@ -116,7 +116,8 @@ footer {
 
 .tabs {
   position: relative;
-  min-height: 200px;
+  min-height: 500px;
+  margin-bottom: 16px;
 }
 
 .tab {
