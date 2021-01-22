@@ -29,7 +29,7 @@ span {
 }
 
 footer {
-  margin: 16px 0;
+  margin: 24px 0;
 }
 
 .gray-bg {
@@ -147,11 +147,12 @@ footer {
   color: #8ce07e;
 }
 
-.content {
+.tab-content {
   position: absolute;
   top: 2em; left: 0; right: 0; bottom: 0;
   opacity: 0;
   margin-top: 8px;
+  overflow-x: hidden;
   overflow: auto;
 }
 
@@ -163,3 +164,21 @@ footer {
   z-index: 1;
   opacity: 1;
 }
+
+/*.btn {
+  background-color: #ffe214;
+  border-radius: 0 45px 0 45px;
+  color: black;
+  border: none;
+  font-weight: bold;
+  font-size: 70px;
+  width: 90px;
+  text-align: center;
+  transition: 500ms;
+}
+
+.btn:hover {
+  background-color: #000000;
+  border-radius: 45px 0 45px 0;
+  color: white;
+}*/
