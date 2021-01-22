@@ -316,4 +316,23 @@ footer {
 
 .text-center {
   text-align: center;
+  margin: 0 auto;
+}
+
+.no-space {
+  padding: 3px;
+  margin: 0;
+}
+
+.text-blue {
+  color: #6cb4dc;
+}
+
+.white-container {
+  background-color: white;
+  margin: 0 0 0 -20px;
+  padding-right: 33px;
+  width: 100%;
+  height: 35px;
+  letter-spacing: 0.1em
 }
