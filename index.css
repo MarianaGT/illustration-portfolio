@@ -165,20 +165,57 @@ footer {
   opacity: 1;
 }
 
-.btn {
-  background-color: #ffe214;
-  border-radius: 0 45px 0 45px;
-  color: black;
-  border: none;
-  font-weight: bold;
-  font-size: 70px;
-  width: 90px;
-  text-align: center;
-  transition: 500ms;
+/*Decide for me*/
+
+.card-ghost {
+  opacity: .97;
+  box-shadow: 0 8px 40px rgba(0,0,0,.1);
 }
 
-.btn:hover {
-  background-color: #000000;
-  border-radius: 45px 0 45px 0;
-  color: white;
+.card-ghost:hover{
+  opacity: 1;
+  box-shadow: 0 8px 40px rgba(0,0,0,.3);
+}
+
+.card-category {
+  background-color: #f8c630;
+  min-height: 15em;
+  width: 15em;
+  box-sizing: border-box;
+  padding: 2em;
+  position: relative;
+}
+
+.card-category:after {
+  content: "";
+  position: absolute;
+  bottom: -2em;
+  left: 0;
+  right: 2em;
+  border-width: 1em;
+  border-style: solid;
+  border-color: #f8c630;
+}
+
+.card-category:before {
+  content: "";
+  position: absolute;
+  bottom: -2em;
+  right: 0em;
+  border-width: 2em 2em 0 0;
+  border-style: solid;
+  border-color: darken(#f8c630, 10%) transparent;
+}
+
+.card-note-text h3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: black;
+  font-family: 'Lora', Helvetica, sans-serif;
+  text-decoration: none;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
 }
