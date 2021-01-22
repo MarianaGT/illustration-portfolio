@@ -116,46 +116,40 @@ footer {
 
 .tabs {
   position: relative;
-  background-color: #f7f7f7;
-  min-height: 400px;
+  min-height: 200px;
 }
 
 .tab {
   float: left;
-  width: 27%;
 }
 
 .tab label {
-  // set label height
   top: 1em;
   font-size: 12px;
-  padding: 0.2em;
-
-  &:hover {
-    background-color: yellow;
-  }
+  padding: 0 4px;
 }
 
-// Visually hide radio buttons
+.tab label:hover {
+  background-color: #8ce07e;
+}
+
 .tab [type=radio] {
   position: absolute;
   height: 0;
   width: 0;
   overflow: hidden;
   clip: rect(0, 0, 0, 0);
+}
 
-  &:focus + label {
-    outline: 2px dotted black;
-    background-color: yellow;
-    color: black;
-  }
+.tab [type=radio]:focus + label {
+  color: #8ce07e;
 }
 
 .content {
   position: absolute;
-  top: 1em; left: 0; right: 0; bottom: 0;
+  top: 2em; left: 0; right: 0; bottom: 0;
   opacity: 0;
-  margin: 50px 35px 15px 15px;
+  margin-top: 8px;
 }
 
 [type=radio]:checked ~ label {
