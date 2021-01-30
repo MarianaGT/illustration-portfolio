@@ -287,6 +287,21 @@ footer {
   margin-right: 4px;
 }
 
+/* Keepo */
+.black-card {
+  background-color: black;
+  min-height: 15em;
+  width: 18em;
+  box-shadow: 0 8px 40px rgba(0,0,0,.1);
+  box-sizing: border-box;
+  font-family: 'Work Sans', sans-serif;
+}
+
+.text-green {
+  color: #1EDD88;
+}
+
+
 /* Oxford in 8 Breaths*/
 .pastel-blue-card {
   background-color: #a8e0ff;
