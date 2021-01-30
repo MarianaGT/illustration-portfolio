@@ -297,6 +297,11 @@ footer {
   font-family: 'Work Sans', sans-serif;
 }
 
+.center-box {
+  width: 50%;
+  margin: 0 auto;
+}
+
 .text-green {
   color: #1EDD88;
 }
