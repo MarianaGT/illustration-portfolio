@@ -290,12 +290,13 @@ footer {
 /* Keepo */
 .black-card {
   background-color: black;
-  min-height: 15em;
+  height: 21em;
   width: 18em;
   box-shadow: 0 8px 40px rgba(0,0,0,.1);
   box-sizing: border-box;
   font-family: 'Work Sans', sans-serif;
   text-align: center;
+  overflow: hidden;
 }
 
 .center-box {
@@ -312,7 +313,7 @@ footer {
 }
 
 .img-keepo {
-  height: 60px;
+  width: 18em;
 }
 
 
