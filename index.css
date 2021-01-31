@@ -262,8 +262,12 @@ footer {
   padding: 0 4px;
 }
 
-.ml-1 {
+.ml-n1 {
   margin-left: -4px;
+}
+
+.ml-1 {
+  margin-left: 4px;
 }
 
 .ml-2 {
