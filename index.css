@@ -294,18 +294,7 @@ footer {
   width: 18em;
   box-shadow: 0 8px 40px rgba(0,0,0,.1);
   box-sizing: border-box;
-  font-family: 'Work Sans', sans-serif;
-  text-align: center;
   overflow: hidden;
-}
-
-.center-box {
-  width: 60%;
-  margin: 0 auto;
-}
-
-.text-green {
-  color: #1EDD88;
 }
 
 .keepo-title {
