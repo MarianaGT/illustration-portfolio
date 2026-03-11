@@ -56,8 +56,10 @@ footer {
 }
 
 .grow:hover {
-  transform: scale(1.18);
-  transition: 500ms;
+  transform: scale(1.04);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+  z-index: 10;
+  position: relative;
 }
 
 .w-17 {
@@ -165,6 +167,7 @@ footer {
   flex-wrap: wrap;
   justify-content: flex-start;
   gap: 10px;
+  overflow: hidden;
 }
 
 [type=radio]:checked ~ .content {
@@ -175,6 +178,13 @@ footer {
   max-width: 100%
   width: auto;
   object-fit: cover;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+  cursor: zoom-in;
+}
+
+.content img:hover {
+  transform: scale(1.05);
+  filter: brightness(90%);
 }
 
 .content-card {
