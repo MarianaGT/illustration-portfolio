@@ -142,7 +142,7 @@ footer {
 }
 
 .tab label:hover {
-  background-color: #8ce07e;
+  filter: brightness(90%);
 }
 
 .tab [type=radio] {
@@ -174,7 +174,7 @@ footer {
 }
 
 .content img {
-  max-width: 100%
+  max-width: 100%;
   width: auto;
   object-fit: cover;
   transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
@@ -183,7 +183,6 @@ footer {
 
 .content img:hover {
   transform: scale(1.05);
-  filter: brightness(90%);
 }
 
 .content-card {
