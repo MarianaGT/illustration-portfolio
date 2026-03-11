@@ -120,8 +120,8 @@ footer {
 
 .tabs {
   position: relative;
-  min-height: 700px;
   margin-bottom: 16px;
+  overflow: hidden;
 }
 
 .tab {
@@ -152,11 +152,9 @@ footer {
 
 .content {
   position: absolute;
-  top: 2em; left: 0; right: 0; bottom: 0;
+  top: 2em; left: 0; right: 0;
   opacity: 0;
   margin-top: 8px;
-  overflow-x: hidden;
-  overflow: auto;
 }
 
 [type=radio]:checked ~ label {
@@ -314,7 +312,6 @@ footer {
 .img-keepo {
   width: 19.5em;
   margin: 0 -13px;
-
 }
 
 
@@ -433,4 +430,3 @@ footer {
   top: 8px;
   background-color: rgba(255, 255, 255, 0.8)
 }
-
