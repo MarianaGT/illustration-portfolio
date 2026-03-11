@@ -134,7 +134,7 @@ footer {
 
 .tab label {
   cursor: pointer;
-  padding: 10px 15px;
+  padding: 10px;
   display: inline-block;
   margin-right: 2px;
   font-size: 1em;
@@ -153,7 +153,7 @@ footer {
 }
 
 [type=radio]:checked + label {
-  background-color: #8ce07e;
+  background-color: #2cd7e6;
 }
 
 .content {
