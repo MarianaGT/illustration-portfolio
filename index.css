@@ -134,7 +134,7 @@ footer {
 
 .tab label {
   cursor: pointer;
-  padding: 10px;
+  padding: 5px 15px;
   display: inline-block;
   margin-right: 2px;
   order: 1;
