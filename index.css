@@ -125,13 +125,17 @@ footer {
   width: 100%;
 }
 
+.tab {
+  display: contents;
+}
+
 .tab label {
   cursor: pointer;
   padding: 10px 15px;
   display: inline-block;
   margin-right: 2px;
   font-size: 1em;
-  border-bottom: 2px solid transparent;
+  order: 1;
 }
 
 .tab label:hover {
@@ -140,15 +144,13 @@ footer {
 
 .tab [type=radio] {
   position: absolute;
-  height: 0;
+  opacity: 0;
   width: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
+  height: 0;
 }
 
 [type=radio]:checked + label {
   background-color: #8ce07e;
-  border-bottom: 2px solid ·2cd7e6;
 }
 
 .content {
@@ -156,7 +158,7 @@ footer {
   width: 100%;
   margin-top: 10px;
   padding: 10px 0;
-  order: 99;
+  order: 2;
 }
 
 [type=radio]:checked ~ .content {
